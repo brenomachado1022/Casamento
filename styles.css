@@ -1,0 +1,152 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    padding: 0;
+    margin: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+header {
+    background-color: #cab9a0;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 1em 0;
+}
+
+main {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 10px;
+    background-color: #e0e0e0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #000000;
+}
+
+button {
+    background-color: #cab9a0;
+    color: rgb(0, 0, 0);
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: #838285;
+}
+.reserved {
+    opacity: 0.5;
+}
+.header {
+    text-align: center;
+    margin: 10px 0;
+}
+
+.home-button {
+    padding: 10px 20px;
+    background-color: #cab9a0;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.home-button:hover {
+    background-color: #838285;
+}
+
+.remove-button {
+    background-color: #f53535;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.remove-button:hover {
+    background-color: #ff0000;
+}
+
+.gift-category {
+    margin-bottom: 30px;
+}
+
+.gift-category h3 {
+    font-size: 24px;
+    color: #6A452D;
+    margin-bottom: 10px;
+}
+
+#kitchen-gift-list li, 
+#dining-room-gift-list li, 
+#bathroom-gift-list li, 
+#bedroom-gift-list li, 
+#living-room-gift-list li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.button-container {
+    display: flex;
+    gap: 5px; /* Espaço entre os botões */
+}
+
+.reserve-button, .link-button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    background-color: #8B5E3C;
+    color: white;
+}
+
+.reserve-button:hover {
+    background-color: #6A452D;
+}
+
+.link-button {
+    background-color: #6A452D;
+}
+
+.link-button:hover {
+    background-color: #6A452D;
+}
+
+.reserved {
+    opacity: 0.5; /* Mantém o item esmaecido */
+}
+.informar-presente-button {
+    background-color: #25D366;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.informar-presente-button:hover {
+    background-color: #1DA851;
+}
